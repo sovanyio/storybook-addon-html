@@ -72,11 +72,11 @@
     "zx": "^1.15.2"
   },
   "peerDependencies": {
-    "@storybook/addons": "^6.5.8 || ^7.0.0",
-    "@storybook/api": "^6.5.8 || ^7.0.0",
-    "@storybook/components": "^6.5.8 || ^7.0.0",
-    "@storybook/core-events": "^6.5.8 || ^7.0.0",
-    "@storybook/theming": "^6.5.8 || ^7.0.0",
+    "@storybook/addons": "^6.5.8 || ^7.x",
+    "@storybook/api": "^6.5.8 || ^7.x",
+    "@storybook/components": "^6.5.8 || ^7.x",
+    "@storybook/core-events": "^6.5.8 || ^7.x",
+    "@storybook/theming": "^6.5.8 || ^7.x",
     "prettier": "^2.0.0",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
