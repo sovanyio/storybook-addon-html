@@ -77,7 +77,7 @@
     "@storybook/components": "^6.5.8 || ^7.x",
     "@storybook/core-events": "^6.5.8 || ^7.x",
     "@storybook/theming": "^6.5.8 || ^7.x",
-    "prettier": "^2.0.0",
+    "prettier": "^2.0.0 || ^3.x",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-syntax-highlighter": "^15.0.0"
