@@ -1,8 +1,9 @@
 #!/usr/bin/env zx
 
-const packageJson = require("../package.json");
-const boxen = require("boxen");
-const dedent = require("dedent");
+import packageJson from "../package.json";
+import boxen from "boxen";
+import dedent from "dedent";
+import {chalk} from 'chalk';
 
 const name = packageJson.name;
 const displayName = packageJson.storybook.displayName;
@@ -37,7 +38,7 @@ if (name.includes("addon-kit") || displayName.includes("Addon Kit")) {
 const readmeTestStrings =
   "# Storybook Addon Kit|Click the \\*\\*Use this template\\*\\* button to get started.|https://user-images.githubusercontent.com/42671/106809879-35b32000-663a-11eb-9cdc-89f178b5273f.gif";
 
-if ((await $`cat README.md | grep -E ${readmeTestStrings}`.exitCode) == 0) {
+if (($`cat README.md | grep -E ${readmeTestStrings}`.exitCode) == 0) {
   console.error(
     boxen(
       dedent`
