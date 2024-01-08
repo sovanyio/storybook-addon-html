@@ -77,12 +77,12 @@
     "zx": "^7.2.3"
   },
   "peerDependencies": {
-    "@storybook/addons": "^6.5.8 || ^7.0.12",
-    "@storybook/api": "^6.5.8 || ^7.0.12",
-    "@storybook/components": "^6.5.8 || ^7.0.12",
-    "@storybook/core-events": "^6.5.8 || ^7.0.12",
-    "@storybook/theming": "^6.5.8 || ^7.0.12",
-    "prettier": "^2.0.0",
+    "@storybook/addons": "^7.0.0",
+    "@storybook/api": "^7.0.0",
+    "@storybook/components": "^7.0.0",
+    "@storybook/core-events": "^7.0.0",
+    "@storybook/theming": "^7.0.0",
+    "prettier": "^3.0.0",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-syntax-highlighter": "^15.0.0"
